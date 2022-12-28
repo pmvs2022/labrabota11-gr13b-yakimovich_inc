@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab_11</string>
+    <string name="newGame">Новая гульня</string>
+    <string name="continueGame">Працягнуць гульню</string>
+    <string name="firstGame">Залаты Птах</string>
+    <string name="secondGame">Сіняя Світа</string>
+    <string name="statement">Copyright © 2019 Павел Судник, Ричард Рагусский. Все права защищены. Версия 1.0</string>
+    <string name="gameName">zalaty ptah</string>
+</resources>
