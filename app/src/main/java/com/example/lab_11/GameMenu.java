@@ -34,6 +34,7 @@ public class GameMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.game_menu);
         layout = (ConstraintLayout) findViewById(R.id.gameMenuLayout);

@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         textZalatyPtah = (TextView) findViewById(R.id.firstGame);
         textZalatyPtah.setOnClickListener(new View.OnClickListener() {

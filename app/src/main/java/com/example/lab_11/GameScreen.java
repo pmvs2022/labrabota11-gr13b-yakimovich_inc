@@ -33,7 +33,7 @@ public class GameScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_screen);
         layout = findViewById(R.id.gameScreen);
-
+        getSupportActionBar().hide();
         if(savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();
             if (extras == null) {
