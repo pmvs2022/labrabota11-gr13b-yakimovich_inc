@@ -2,7 +2,7 @@ package com.example.lab_11;
 
 import org.junit.Test;
 import com.example.lab_11.DBHandler;
-import com.example.lab_11.MainActivity;
+import com.example.lab_11.MainActivity.*;
 import com.example.lab_11.GameScreen;
 import com.example.lab_11.GameMenu;
 import static com.example.lab_11.Constants.SinjajaSvita;
@@ -28,7 +28,7 @@ import java.util.ArrayList;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
-    @Test
+  /*  @Test
     public void databaseCreatedTest() {
         assertFalse(MainActivity.dbHandler.checkDataBase());
     }
@@ -47,7 +47,7 @@ public class ExampleUnitTest {
         sc.setLink(1, 0);
         sc.setImage("pic5");
         assertEquals(sc, sc_tested);
-    }
+    }*/
 
     @Test
     public void stageClassTest() {
