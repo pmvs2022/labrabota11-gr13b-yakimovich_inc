@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/univer/sem5/mobilki/labrabota11-gr13b-yakimovich_inc/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/univer/sem5/mobilki/labrabota11-gr13b-yakimovich_inc/app/src/main/res/layout/game_menu.xml" value="0.22826086956521738" />
+        <entry key="..\:/univer/sem5/mobilki/labrabota11-gr13b-yakimovich_inc/app/src/main/res/layout/game_screen.xml" value="0.22826086956521738" />
         <entry key="app/src/main/res/drawable-v24/back.xml" value="0.2145" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2145" />
         <entry key="app/src/main/res/drawable-v24/mainback.xml" value="0.2145" />

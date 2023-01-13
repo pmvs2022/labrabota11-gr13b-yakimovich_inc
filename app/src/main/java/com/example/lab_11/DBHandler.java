@@ -63,7 +63,7 @@ public class DBHandler extends SQLiteOpenHelper {
         db.execSQL(query);
     }
 
-    private boolean checkDataBase() {
+    public boolean checkDataBase() {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery("select count(*) from " + TABLE_NAME, null);
         cursor.moveToFirst();

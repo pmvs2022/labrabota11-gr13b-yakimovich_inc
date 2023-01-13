@@ -144,7 +144,7 @@ public class GameScreen extends AppCompatActivity {
         }
     }
 
-    private void saveGame(int position) {
+    public void saveGame(int position) {
         try {
             FileOutputStream f = openFileOutput(savedata, MODE_PRIVATE);
             String s = Integer.toString(position);

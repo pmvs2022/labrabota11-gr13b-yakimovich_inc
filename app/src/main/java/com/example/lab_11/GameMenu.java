@@ -7,12 +7,17 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -130,7 +135,7 @@ public class GameMenu extends AppCompatActivity {
         return 0;
     }
 
-    private void startNewGame() {
+    private  void startNewGame() {
         try {
             FileOutputStream f = openFileOutput(savedata, MODE_PRIVATE);
             String s = "0";
